@@ -7,7 +7,7 @@ while True:
 	os.system('cls')       # Linux use 'clear'
 	soup = BeautifulSoup(link,"html.parser")
 	s=soup.find('span',{ "class" : 'brclr'} )
-	print "Current Score Is",s.text
+	print "Current Score Is"
 	print s.text
 	time.sleep(10)
 	os.system('cls')    # Linux  use 'clear'  
